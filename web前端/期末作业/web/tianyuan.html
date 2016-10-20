@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #total{
+            padding: 20px;
+            height: 900px;
+            width: 1420px;
+            margin: 0 auto;
+            background-color:#bce8f1;
+        }
+        #top{
+            padding: 20px;
+            height: 60px;
+            width: 1000px;
+            margin: 0 auto;
+
+            font-size: 50px;
+            color: #e60012;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            padding-top: 0px;
+        }
+        #navz{
+
+            height: 50px;
+            width: 1000px;
+            background-color: #f09e00;
+            margin: 15px auto;
+            z-index: 1;
+
+        }
+        #navz ul li ul { position:absolute; display:none;color: #c7ddef;z-index: 1}
+        #navz ul li ul li { float:none;background-color:#080808; font-size: 20px; }
+        #navz ul li ul li a { border-right:none; border-top:1px dotted #ccc; background-color: #080808;}
+        #navz ul li:hover ul{ display:block; background-color: #d58512;}
+        #total ul{
+            margin: 0 auto;
+            padding: 0px;
+            text-align: center;
+        }
+        #navz li{
+
+            float: left;
+            padding: 5px;
+            display: block;
+            list-style-type: none;
+            width: 173px;
+            text-align: center;
+            margin: 0 auto;
+            height: 40px;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+        li:hover{
+            background-color: #e9ddb7;
+        }
+        #navz li a{
+            margin-top: 0px;
+            position: absolute;
+        }
+        #history{
+            width: 500px;
+            height: 500px;
+            float: left;
+            background: url("素材/eccec769e555099d0f742bb2a0ed03129047da4c.jpg");
+            margin-top: 35px;
+
+        }
+        #picture{
+            width: 500px;
+            height: 500px;
+            float: left;
+            font-size: 25px;
+            color:#e60012;
+            font-weight: bold;
+            margin-top: 35px;
+        }
+        #history1{
+            width: 420px;
+            height: 500px;
+            float: left;
+            background: url("素材/wKgB4lNLWuKAdPaYAALhteBjwbw74.groupinfo.w665_500.jpeg");
+            margin-top: 35px;
+        }
+        </style>
+</head>
+<body>
+<div id="total">
+    <div id="top">田园咖啡店</div>
+    <div id="navz">
+
+        <ul>
+            <li><a href="../期末作业.html"class="navbar">首页</a></li>
+
+
+
+            <li>咖啡文化
+                <ul>
+                    <li>中国咖啡文化</li>
+                    <li>欧美咖啡文化</li>
+                    <li>印度咖啡文化</li>
+                </ul>
+            </li>
+
+
+            <li>店面欣赏
+                <ul>
+                    <li>田园咖啡店</li>
+                    <li>欧式咖啡厅</li>
+                    <li>书吧咖啡厅</li>
+
+                </ul>
+            </li>
+            <li>品牌历史
+                <ul>
+                    <li>蓝山咖啡</li>
+                    <li>摩卡咖啡</li>
+                    <li>圣多斯咖啡</li>
+
+                </ul>
+            </li>
+            <li>前台展示</li>
+        </ul>
+    </div>
+    <div id="Demo_t0" style="overflow:hidden;width:1400px;height:160px;">
+        <table width=" 0"  border=0 align=center cellpadding=0 cellspacing="0" cellspace="0" align="center" >
+            <tr>
+                <td align="center" valign=top id=Demo_t1><table width=" 0"  border=0 align=left cellpadding=0 cellspacing="0" cellspace=0>
+                    <tr align="center" valign="middle">
+                        <td width=" 0" align="center" valign="middle"><img src="素材/u=1602990012,3894387684&fm=21&gp=0.jpg"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/u=2322758764,3802755294&fm=21&gp=0.jpg"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/u=2471952073,589054105&fm=21&gp=0.jpg"></td>
+
+                        <td width=" 0" align="center" valign="middle"><img src="素材/u=3400729691,1982635402&fm=21&gp=0.jpg"></td>
+                    </tr>
+
+                </table></td>
+                <td width="1" valign=top id=Demo_t2></td>
+                <script language="javascript">
+                    var Demo_speed=30
+                    Demo_t2.innerHTML=Demo_t1.innerHTML
+                    function Demo_Marquee(){
+                        if(Demo_t2.offsetWidth-Demo_t0.scrollLeft<=0)
+                            Demo_t0.scrollLeft-=Demo_t1.offsetWidth
+                        else{
+                            Demo_t0.scrollLeft++
+                        }
+                    }
+                    var Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)
+                    Demo_t0.onmouseover=function() {clearInterval(Demo_MyMar)}
+                    Demo_t0.onmouseout=function() {Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)}
+                </script>
+            </tr>
+        </table>
+
+    </div>
+    <div id="history">　</div>
+
+<div id="picture">田园风格咖啡厅在设计的时候追求的是一种自然和谐、清新、淳朴自然、充满原始农家田园味道的一个供人们在繁忙的工作闲暇秩序放松心情、朋友谈心聊天的场所。田园风格在选材用料上崇尚自然，砖、陶、木 、石、藤、竹等，当然也可以采用欧式美式家具和精美的吊灯向搭配，最典型的是碎花的窗帘，在织物质地的选择上多采用棉、麻等天然制品，与乡村风格不饰雕琢的追求相契合。田园咖啡厅重在追求自然的宁静朴实的美，因此注定了必须有一个独一无二的选址，不像快餐店那样要选在闹市区或繁华地段，因此，田园咖啡厅多会选择在环境安静或郊区远离闹市的地方，在选址时注重的是一些人气比较旺、文化氛围比较浓厚的风景区附近，要与质朴、幽雅的风格定位相符合。</div>
+<div id="history1"></div>
+</div>
+</body>
+
+</html>

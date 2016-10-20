@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.12.3.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        #total{
+            padding: 20px;
+            height: 1550px;
+            width: 1420px;
+            margin: 0 auto;
+            background-color: #bce8f1;
+        }
+        #top{
+            padding: 20px;
+            height: 60px;
+            width: 1000px;
+            margin: 0 auto;
+
+            font-size: 50px;
+            color: #e60012;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            padding-top: 0px;
+        }
+        #navz{
+
+            height: 50px;
+            width: 1000px;
+            background-color: #f09e00;
+            margin: 15px auto;
+            z-index: 1;
+
+        }
+        #navz ul li ul { position:absolute; display:none;color: #c7ddef;z-index: 1}
+        #navz ul li ul li { float:none;background-color:#080808; font-size: 20px; }
+        #navz ul li ul li a { border-right:none; border-top:1px dotted #ccc; background-color: #080808;}
+        #navz ul li:hover ul{ display:block; background-color: #d58512;}
+        #total ul{
+            margin: 0 auto;
+            padding: 0px;
+            text-align: center;
+        }
+        #navz li{
+
+            float: left;
+            padding: 5px;
+            display: block;
+            list-style-type: none;
+            width: 173px;
+            text-align: center;
+            margin: 0 auto;
+            height: 40px;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+        li:hover{
+            background-color: #e9ddb7;
+        }
+        #navz li a{
+          margin-top: 0px;
+            position: absolute;
+        }
+        #picture1{height: 400px;
+            width: 400px;
+            background-color: #255625;
+            float: left;
+            margin: 15px auto;
+            font-size: 30px;
+            color: #c9302c;
+        }
+        #text-picture{
+            font-size: 28px;
+            color: #e60012;
+        }
+        #history{
+            width: 1400px;
+            height: 400px;
+         margin-top: 50px;
+            margin-left: 0px;
+
+            font-size: 30px;
+            color: #e60012;
+        }
+    </style>
+</head>
+<body>
+<div id="total">
+    <div id="top">中国咖啡文化及其发展</div>
+    <div id="navz">
+
+        <ul>
+            <li><a href="../期末作业.html"class="navbar">首页</a></li>
+
+
+
+            <li>咖啡文化
+                <ul>
+                    <li>中国咖啡文化</li>
+                    <li>欧美咖啡文化</li>
+                    <li>印度咖啡文化</li>
+                </ul>
+            </li>
+
+
+            <li>店面欣赏
+                <ul>
+                    <li>田园咖啡店</li>
+                    <li>欧式咖啡厅</li>
+                    <li>书吧咖啡厅</li>
+
+                </ul>
+            </li>
+            <li>品牌历史
+                <ul>
+                    <li>蓝山咖啡</li>
+                    <li>摩卡咖啡</li>
+                    <li>圣多斯咖啡</li>
+
+                </ul>
+            </li>
+            <li>吧台特写</li>
+        </ul>
+    </div>
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="素材/1615-110Z402322475.jpg" height="200px" width="1400px" alt="">
+            </div>
+            <div class="item">
+                <img src="素材/1615-110Z4024K661.jpg"height="200px" width="1400px" alt="">
+
+            </div>
+            <div class="item">
+                <img src="素材/2889686_123626517139_2.jpg"height="200px" width="1400px" alt="">
+
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="picture1"><img src="素材/p230991193-18.jpg"height="400"width="400"></div>
+    <div id="text-picture">台北 蒙马特影像咖啡馆
+    台北咖啡馆，或者是台湾人对饮食的文化，未曾体验过，也一定听闻过。基本上，台湾人习惯城市咖啡文化，几乎可以说生活在咖啡世界。台北最火的咖啡热话已转到一系列的山区咖啡馆。蒙马特影像咖啡馆，馆主赖岳忠本是一位台北著名的人像摄影师。因他喜爱巴黎，很想在台北寻回巴黎的气味，所以在阳明山一角辟出属于自己的咖啡新天地，尽情释放巴黎的咖啡香气。
+    有识之士在台北开设咖啡馆值得庆幸，因不乏捧场客趁夜幕低垂之际从老远城中前来落脚，咖啡馆最繁忙之时正是由晚饭后开始。馆子分三个区域，分别是馆前的露天茶座、主馆和后馆。炎夏的台北，户外茶座也大有人坐，可见台湾年轻一辈对咖啡文化钟爱有加。主馆及后馆内布局有如美术馆，馆内也腾出偌大的空间来放置一张床，俨然一副下午茶的格局。
+        </div>
+    <div id="history">　中国人喝茶已经有几千年的历史了，作为世界上茶的原产地，人们在消费习惯和观念上对咖啡这种外来的饮料或多或少地存在着一种忽视或者轻视。中国大陆的咖啡文化应该起始于旧上海的英法日租界，而当时的咖啡馆是洋人和上等华人出没的场合，并没有进入寻常百姓家的生活。直到近年来，随着外来文化的冲击和生活方式的转变，咖啡更多地进入了寻常中国百姓家，中国的咖啡文化才逐渐兴盛起来。
+        对于我国大地上的咖啡市场，很多分析师认为市场庞大，发展潜力巨大。根据伦敦的国际咖啡组织的统计，与全球平均2%的增长率相比，中国的咖啡消费正在以每年15%的惊人速度增长。中国人每年平均只喝3杯咖啡，但是和其相对来比较的话，北美人是大约在五百到七百杯。
+
+        　在上一世纪八十年代末，随着中国咖啡文化的兴起，人们开始慢慢对非洲咖啡有了越来越深入的了解，甚至有很多咖啡爱好者在品尝非洲咖啡之后，转而开始在中国进行推广和销售。但是，非洲咖啡在中国市场的销量仍然非常微小，大多数人提起非洲咖啡仍是一片迷茫。
+
+    </div>
+</div>
+</body>
+</html>

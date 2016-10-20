@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    #total{
+    padding: 20px;
+    height: 1000px;
+    width: 1400px;
+    margin: 0 auto;
+    background-color:#a6e1ec;
+    }
+    #top{
+    padding: 20px;
+    height: 35px;
+    width: 1000px;
+    margin: 0 auto;
+
+    font-size: 50px;
+    color: #e60012;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    }
+    #navz{
+
+    height: 50px;
+    width: 1000px;
+    background-color: #f09e00;
+    margin: 15px auto;
+
+    }
+    #navz ul li ul { position:absolute; display:none;color: #c7ddef;  }
+    #navz ul li ul li { float:none;background-color:#080808; font-size: 20px }
+    #navz ul li ul li a { border-right:none; border-top:1px dotted #ccc; background-color:#d58512}
+    #navz ul li:hover ul{ display:block; background-color: #d58512;}
+    #total ul{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    }
+    #navz li{
+
+    float: left;
+    padding: 5px;
+    display: block;
+    list-style-type: none;
+    width: 173px;
+    text-align: center;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    }
+    li:hover{
+    background-color: #e9ddb7;
+    }
+        #history{
+            width: 1400px;
+            height: 500px;
+
+            font-size: 25px;
+            color: #c9302c;
+        }
+    #footer{
+        width: 1400px;
+        height: 120px;
+        margin: 5px auto;
+        background-color:#000000;
+        float: left;
+
+    }
+    #footer li{
+        float: left;
+        margin-left: 15px ;
+    }
+    </style>
+</head>
+<body>
+<div id="total">
+    <div id="top">欧洲咖啡厅欣赏及其特点</div>
+    <div id="navz">
+
+        <ul>
+            <li><a href="../期末作业.html"class="navbar">首页</a></li>
+
+
+
+            <li>咖啡文化
+                <ul>
+                    <li><a href="web/china coffe.html"class="navbar">中国咖啡文化</a></li>
+                    <li>欧美咖啡文化</li>
+                    <li>印度咖啡文化</li>
+                </ul>
+            </li>
+
+
+            <li>店面欣赏
+                <ul>
+                    <li><a href="web/tianyuan.html"class="navbar">田园咖啡店</a></li>
+                    <li>欧式咖啡厅</li>
+                    <li>书吧咖啡厅</li>
+
+                </ul>
+            </li>
+            <li>品牌历史
+                <ul>
+                    <li><a href="web/lanshang.html"class="navbar">蓝山咖啡</a></li>
+                    <li>摩卡咖啡</li>
+                    <li>圣多斯咖啡</li>
+
+                </ul>
+            </li>
+            <li><a href="web/batai.html"class="navbar">吧台特写</a></li>
+        </ul>
+    </div>
+    <div id="Demo_t0" style="overflow:hidden;width:1400px;height:160px;">
+        <table width=" 0" height="136" border=0 align=center cellpadding=0 cellspacing="0" cellspace="0" align="center" >
+            <tr>
+                <td align="center" valign=top id=Demo_t1><table width=" 0" height="136" border=0 align=left cellpadding=0 cellspacing="0" cellspace=0>
+                    <tr align="center" valign="middle">
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (1).jpg"height="220"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (2).jpg"height="220"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (1).jpg"height="220"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (3).jpg"height="220"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载.jpg"height="220"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/u=184740539,4092928353&fm=21&gp=0.jpg"height="220"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/u=3017480330,3091719461&fm=21&gp=0.jpg"height="220"></td>
+                    </tr>
+
+                </table></td>
+                <td width="1" valign=top id=Demo_t2></td>
+                <script language="javascript">
+                    var Demo_speed=30
+                    Demo_t2.innerHTML=Demo_t1.innerHTML
+                    function Demo_Marquee(){
+                        if(Demo_t2.offsetWidth-Demo_t0.scrollLeft<=0)
+                            Demo_t0.scrollLeft-=Demo_t1.offsetWidth
+                        else{
+                            Demo_t0.scrollLeft++
+                        }
+                    }
+                    var Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)
+                    Demo_t0.onmouseover=function() {clearInterval(Demo_MyMar)}
+                    Demo_t0.onmouseout=function() {Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)}
+                </script>
+            </tr>
+        </table>
+    </div>
+    <div id="history">如果咖啡的渊源可以一直上溯到久远的非洲和阿拉伯古文化的话，那么今天人们印象中的咖啡馆则是一种纯粹的欧洲文化，更准确地说它甚至还是欧洲近代文明的一个摇篮和历史见证。自第一家咖啡馆在欧洲大陆出现开始，“在咖啡馆见面”成为欧洲人流行三百余年的社交方式。家与办公室之外就是咖啡馆，可以称得上是人生的第三大重要领地。　
+        因此，才有“我不在家里，就在咖啡馆，不在咖啡馆，就在去咖啡馆的路上”这样盛行不衰的名言。<br>&nbsp;&nbsp;如今在欧洲，咖啡文化可以说是一种很成熟的文化形式了。从咖啡进入这块大陆，到欧洲第一家咖啡馆的出现，咖啡文化以极其迅猛的速度发展着，显示了极为旺盛的生命活力。
+
+        　　在奥地利的维也纳，咖啡与音乐、华尔兹舞并称“维也纳三宝”，可见咖啡文化的意义深远。
+        在欧洲，咖啡文化可以说是一种很成熟的文化形式了，从咖啡进入这块大陆，到欧洲第一家咖啡馆的出现，咖啡文化以极其迅猛的速度发展着，显示了极为旺盛的生命活力。
+
+        　　在奥地利的维也纳，咖啡与音乐、华尔兹舞并称“维也纳三宝”，可见咖啡文化的意义深远。
+
+        　　在意大利有一句名言：“男人要像好咖啡，既强劲又充满热情!”把男人等同于咖啡，这是何等的非比寻常。
+
+        　　意大利人对咖啡情有独钟，咖啡已经成为他们生活中最基本和最重要的因素了。在起床后，意大利人要做的第一件事就是马上煮上一杯咖啡。不论男女，几乎从早到晚咖啡杯不离手。
+
+        　　在法国，如果没有咖啡就像没有葡萄酒一样不可思议，简直可以说是世界的末日到了。据说历史上有一个时期，法国由于咖啡供应紧张而导致许多法国人整日无精打采，大大影响了这个国家正常的生活。1991年“海湾战争”爆发，法国人担心战争会给日常生活带来影响，纷纷跑到超级市场抢购商品，当电视台的采访记者把 摄像机对准抢购商品的民众时，镜头里显示的却是顾客们手中大量的咖啡和方糖，一时传为笑谈。
+
+        　　法国人喝咖啡讲究的不是咖啡本身的品质和味道，而注重饮用咖啡的环境和情调，表现出来的是优雅的情趣、浪漫的格调和诗情画意般的境界，就像卢浮宫中那些精美动人的艺术作品一般。
+    </div>
+    <div id="footer">
+        <ul>
+            <li><img src="素材/u=1538583195,3640366461&fm=21&gp=0.jpg"height="173"></li>
+            <li><img src="素材/u=594587561,1094111646&fm=21&gp=0.jpg"height="173"></li>
+            <li><img src="素材/u=2407676891,2658837787&fm=21&gp=0.jpg"height="173"></li>
+            <li><img src="素材/u=1538583195,3640366461&fm=21&gp=0.jpg"height="173"></li>
+            <li><img src="素材/u=184740539,4092928353&fm=21&gp=0.jpg"height="173"></li>
+
+
+
+        </ul>
+    </div>
+    </div>
+</body>
+</html>

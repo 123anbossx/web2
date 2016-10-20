@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #total{
+            padding: 20px;
+            height: 900px;
+            width: 1420px;
+            margin: 0 auto;
+            background-color:#a6e1ec;
+        }
+        #top{
+            padding: 20px;
+            height: 60px;
+            width: 1000px;
+            margin: 0 auto;
+
+            font-size: 50px;
+            color: #e60012;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            padding-top: 0px;
+        }
+        #navz{
+
+            height: 50px;
+            width: 1000px;
+            background-color: #f09e00;
+            margin: 15px auto;
+            z-index: 1;
+
+        }
+        #navz ul li ul { position:absolute; display:none;color: #c7ddef;z-index: 1}
+        #navz ul li ul li { float:none;background-color:#080808; font-size: 20px; }
+        #navz ul li ul li a { border-right:none; border-top:1px dotted #ccc; background-color: #080808;}
+        #navz ul li:hover ul{ display:block; background-color: #d58512;}
+        #total ul{
+            margin: 0 auto;
+            padding: 0px;
+            text-align: center;
+        }
+        #navz li{
+
+            float: left;
+            padding: 5px;
+            display: block;
+            list-style-type: none;
+            width: 173px;
+            text-align: center;
+            margin: 0 auto;
+            height: 40px;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+        li:hover{
+            background-color: #e9ddb7;
+        }
+        #navz li a{
+            margin-top: 0px;
+            position: absolute;
+        }
+        #history{
+            width: 500px;
+            height: 500px;
+            float: left;
+            background: url("素材/欧式.jpg");
+            margin-top: 35px;
+
+        }
+        #picture{
+            width: 500px;
+            height: 500px;
+            float: left;
+            font-size: 25px;
+            color:#e60012;
+            font-weight: bold;
+            margin-top: 35px;
+        }
+        #history1{
+            width: 420px;
+            height: 500px;
+            float: left;
+            background: url("素材/欧式1.jpg");
+            margin-top: 35px;
+        }
+    </style>
+</head>
+<body>
+<div id="total">
+    <div id="top">欧式咖啡店</div>
+    <div id="navz">
+
+        <ul>
+            <li><a href="../期末作业.html"class="navbar">首页</a></li>
+
+
+
+            <li>咖啡文化
+                <ul>
+                    <li>中国咖啡文化</li>
+                    <li>欧美咖啡文化</li>
+                    <li>印度咖啡文化</li>
+                </ul>
+            </li>
+
+
+            <li>店面欣赏
+                <ul>
+                    <li>田园咖啡店</li>
+                    <li>欧式咖啡厅</li>
+                    <li>书吧咖啡厅</li>
+
+                </ul>
+            </li>
+            <li>品牌历史
+                <ul>
+                    <li>蓝山咖啡</li>
+                    <li>摩卡咖啡</li>
+                    <li>圣多斯咖啡</li>
+
+                </ul>
+            </li>
+            <li>吧台特写</li>
+        </ul>
+    </div>
+    <div id="Demo_t0" style="overflow:hidden;width:1400px;height:160px;">
+        <table width=" 0"  border=0 align=center cellpadding=0 cellspacing="0" cellspace="0" align="center" >
+            <tr>
+                <td align="center" valign=top id=Demo_t1><table width=" 0"  border=0 align=left cellpadding=0 cellspacing="0" cellspace=0>
+                    <tr align="center" valign="middle">
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (1).jpg"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (2).jpg"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (1).jpg"></td>
+
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载 (3).jpg"></td>
+                        <td width=" 0" align="center" valign="middle"><img src="素材/下载.jpg"height="220"></td>
+                    </tr>
+
+                </table></td>
+                <td width="1" valign=top id=Demo_t2></td>
+                <script language="javascript">
+                    var Demo_speed=30
+                    Demo_t2.innerHTML=Demo_t1.innerHTML
+                    function Demo_Marquee(){
+                        if(Demo_t2.offsetWidth-Demo_t0.scrollLeft<=0)
+                            Demo_t0.scrollLeft-=Demo_t1.offsetWidth
+                        else{
+                            Demo_t0.scrollLeft++
+                        }
+                    }
+                    var Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)
+                    Demo_t0.onmouseover=function() {clearInterval(Demo_MyMar)}
+                    Demo_t0.onmouseout=function() {Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)}
+                </script>
+            </tr>
+        </table>
+
+    </div>
+    <div id="history">　</div>
+
+    <div id="picture">奢华主题的欧式咖啡厅的设计表达要体现在浓烈的色彩、华丽的装饰、精美的造型上，营造出一种雍容华贵的效果。我们可以采用大型灯池配以华丽的枝形吊灯氤氲华丽的欧式复古风。在门窗上，可以采用采用带有花纹的石膏边线勾勒成圆弧形装饰门窗的上半部分。在西式咖啡厅的入口处，我们可以采用豪华罗马柱的方案，同时在咖啡厅中布置壁炉，给人以复古华丽的欧洲宫廷风之感。同时我们可以在墙面上铺设优质的乳胶漆或者好用的壁纸来烘托豪华的效果。地板或者石材可以作为地面材料的首选。当然我们也可以选择色彩鲜艳的布艺沙发或者是深色的枫木、橡木家具这些元素来进行搭配，细节上不要忽略精美的油画、工艺精美的雕塑品、
+        浪漫温情的罗马窗帘等。但是这种奢华的主题一般在空间、面积大的房间里的效果更好。在进行主题选取的时候要根据实际情况来选取。</div>
+    <div id="history1"></div>
+</div>
+</body>
+
+</html

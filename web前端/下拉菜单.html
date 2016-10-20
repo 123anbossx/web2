@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <body>
+<div id="Demo_t0" style="overflow:hidden;width:930px;height:160px;">
+    <table width=" 0" height="136" border=0 align=center cellpadding=0 cellspacing="0" cellspace=0>
+        <tr>
+            <td align="center" valign=top id=Demo_t1><table width=" 0" height="136" border=0 align=left cellpadding=0 cellspacing="0" cellspace=0>
+                <tr>
+                    <td width=" 0" align="center" valign="middle"><img src="期末作业素材/下载 (2).jpg"></td>
+                    <td width=" 0" align="center" valign="middle"><img src="期末作业素材/u=2148199972,682462516&fm=21&gp=0.jpg"></td>
+                </tr>
+            </table></td>
+            <td width="1" valign=top id=Demo_t2></td>
+            <script language="javascript">
+                var Demo_speed=30
+                Demo_t2.innerHTML=Demo_t1.innerHTML
+                function Demo_Marquee(){
+                    if(Demo_t2.offsetWidth-Demo_t0.scrollLeft<=0)
+                        Demo_t0.scrollLeft-=Demo_t1.offsetWidth
+                    else{
+                        Demo_t0.scrollLeft++
+                    }
+                }
+                var Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)
+                Demo_t0.onmouseover=function() {clearInterval(Demo_MyMar)}
+                Demo_t0.onmouseout=function() {Demo_MyMar=setInterval(Demo_Marquee,Demo_speed)}
+            </script>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
